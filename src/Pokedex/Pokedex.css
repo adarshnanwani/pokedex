@@ -1,0 +1,19 @@
+.Pokedex {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin:20px;
+}
+
+.Pokedex-winner {
+  border-color: green;
+  border-width: 5px;
+}
+
+.Pokedex-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
